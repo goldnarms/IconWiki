@@ -1,0 +1,1 @@
+A description of libraries and plugins used in the app, and where to get more information.
