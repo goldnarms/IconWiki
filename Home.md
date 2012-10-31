@@ -1,4 +1,4 @@
 Welcome to the konferanse wiki!
 * [Deployment](wiki/Deployment)
-* [Development Environment Setup](Development Environment Setup)
-* [Dependencies](Dependencies)
+* [Development Environment Setup](wiki/Development-Environment-Setup)
+* [Dependencies](wiki/Dependencies)
