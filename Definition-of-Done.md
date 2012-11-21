@@ -1,10 +1,10 @@
 ### Testing
 * Unit tests
-_ClientApp: jasmin tests_
-_AdminPortal: unit test project_ with mstest
+1. _ClientApp: jasmin tests_
+2. _AdminPortal: unit test project with mstest_
 * Acceptance tests
-ClientApp: 
-AdminPortal: webtest project with SpecFlow tests
+1. _ClientApp: _
+2. _AdminPortal: webtest project with SpecFlow tests_
 * Integration tests: from AdminPortal to ClientApp
 
 ### Documentation
