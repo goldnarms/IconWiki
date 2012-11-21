@@ -3,7 +3,7 @@
 1. _ClientApp: jasmin tests_
 2. _AdminPortal: unit test project with mstest_
 * Acceptance tests
-1. _ClientApp: _
+1. _ClientApp:_
 2. _AdminPortal: webtest project with SpecFlow tests_
 * Integration tests: from AdminPortal to ClientApp
 
@@ -20,5 +20,5 @@ Green tests, build succeded, get latest, checked in
 * look through code
 
 ### User stories
-* Set tasks to done, remaining hours set to 0, updated completed hours
-* Move user stories to completed
+* Set tasks to closed, remaining hours set to 0, updated completed hours
+* Move user stories to closed
