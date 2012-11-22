@@ -7,6 +7,9 @@ Twitter Bootstrap is used to style the client app. It provides several CSS style
 ### [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
 Font awesome replaces the icons used by Bootstrap with a webfont so that you may resize icons, change their colors and so on.
 
+### [add2home](http://cubiq.org/add-to-home-screen)
+A Javascript snippet which displays a popup message for iOS users, informing them how to add the site to their home screen. It's designed to be as little intrusive as possible, and won't display for another week after being viewed.
+
 ## AdminPortal
 ### Acceptance tests
 * For acceptance test we use SpecFlow to write test in BDD style. You set up a new feature for each area(conference, venue, etc.). See the Features folder under WebTests project, when you compile a test is generated, run the test and you will get see how to implement the test in the test output window. [Read more about SpecFlow...](http://www.specflow.org/specflownew/)
