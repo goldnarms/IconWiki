@@ -3,6 +3,7 @@ A description of libraries and plugins used in the app, and where to get more in
 ## Client App
 ### [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
 * Twitter Bootstrap is used to style the client app. It provides several CSS styles and components as well as a Javascript library of components with extended functionality.
+
 ### [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
 * Font awesome replaces the icons used by Bootstrap with a webfont so that you may resize icons, change their colors and so on.
 
