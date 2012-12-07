@@ -1,8 +1,14 @@
 Description of how to set up development environment
 
-## Client App
-It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.com/webstorm/) for development on the client side. It has great support for Node.js and general Javascript development, and the interface should be familiar to anyone who has used other JetBrains products before.
+## IDE's
+It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.com/webstorm/) for development on the Client App, Node.js server, and REST API. It has great support for Node.js and general Javascript development, and the interface should be familiar to anyone who has used other JetBrains products before.
 
+## Node.js server/REST API
+### Setting up WebStorm
+To set up the solution in WebStorm is quite straightforward. Simply open the root directory.
+To make a run configuration just press Run -> Edit Configurations, then point the Node App JS file to **_~/scripts/server.js_**.
+
+## Client App
 ### Tests
 The tests themselves are located under the **_~/test_** folder. However, to run them you should visit the **_~/scripts_** folder where there are two scripts, **_test.*_** and **_e2e-test.*_** (.bat and .sh versions exist), which kick off their respective test suites. These test scripts kick off the Testacular test runner using the respective configuration files found in the **_~/config_** folder.
 
