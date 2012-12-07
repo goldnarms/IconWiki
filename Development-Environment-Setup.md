@@ -4,6 +4,9 @@ Description of how to set up development environment
 It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.com/webstorm/) for development on the Client App, Node.js server, and REST API. It has great support for Node.js and general Javascript development, and the interface should be familiar to anyone who has used other JetBrains products before.
 
 ## Node.js server/REST API
+### NPM
+To install external dependencies you can use Node's package manager, NPM. Simply browse to the root directory of the project in a terminal and run the command **_npm install_**. This will prompt NPM to check the packages.json file for what libraries to fetch and install.
+
 ### Setting up WebStorm
 To set up the solution in WebStorm is quite straightforward. Simply open the root directory.
 To make a run configuration just press Run -> Edit Configurations, then point the Node App JS file to **_~/scripts/server.js_**, like so:
