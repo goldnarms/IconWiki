@@ -1,4 +1,4 @@
-* [Deployment][Deployment]
+* [[Deployment|Deployment]]
 * [Development Environment Setup](wiki/Development-Environment-Setup)
 * [Dependencies](wiki/Dependencies)
 * [Terminology](wiki/Terminology)
