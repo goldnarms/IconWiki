@@ -1,5 +1,5 @@
-#"IDE's":#IDE's
-#"Node.js server/REST API":## Node.js server/REST API
+# "IDE's":#IDE's
+# "Node.js server/REST API":## Node.js server/REST API
 
 ## IDE's
 It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.com/webstorm/) for development on the Client App, Node.js server, and REST API. It has great support for Node.js and general Javascript development, and the interface should be familiar to anyone who has used other JetBrains products before.
