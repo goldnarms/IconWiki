@@ -19,6 +19,9 @@ This is the test runner used to launch the unit and e2e tests. It should also be
 #### [Jasmine](http://pivotal.github.com/jasmine/)
 BDD flavored framework used for writing the unit tests.
 
+#### [Angular Scenario](http://docs.angularjs.org/guide/dev_guide.e2e-testing)
+The Angular Scenario runner is used for the e2e tests.
+
 ## AdminPortal
 ### Acceptance tests
 * For acceptance test we use SpecFlow to write test in BDD style. You set up a new feature for each area(conference, venue, etc.). See the Features folder under WebTests project, when you compile a test is generated, run the test and you will get see how to implement the test in the test output window. [Read more about SpecFlow...](http://www.specflow.org/specflownew/)
