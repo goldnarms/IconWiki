@@ -6,7 +6,9 @@ It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.c
 ## Node.js server/REST API
 ### Setting up WebStorm
 To set up the solution in WebStorm is quite straightforward. Simply open the root directory.
-To make a run configuration just press Run -> Edit Configurations, then point the Node App JS file to **_~/scripts/server.js_**.
+To make a run configuration just press Run -> Edit Configurations, then point the Node App JS file to **_~/scripts/server.js_**, like so:
+
+![Webstorm Node.js Run Configuration](http://i.imgur.com/3xfUd.png)
 
 ## Client App
 ### Tests
