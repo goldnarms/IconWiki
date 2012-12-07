@@ -1,19 +1,22 @@
 A description of libraries and plugins used in the app, and where to get more information.
 
 ## Client App
-### [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+### Styling
+#### [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
 Twitter Bootstrap is used to style the client app. It provides several CSS styles and components as well as a Javascript library of components with extended functionality.
 
-### [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
+#### [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
 Font awesome replaces the icons used by Bootstrap with a webfont so that you may resize icons, change their colors and so on.
 
-### [add2home](http://cubiq.org/add-to-home-screen)
+#### [add2home](http://cubiq.org/add-to-home-screen)
 A Javascript snippet which displays a popup message for iOS users, informing them how to add the site to their home screen. It's designed to be as little intrusive as possible, and won't display for another week after being viewed.
 
-### [Testacular](http://vojtajina.github.com/testacular/)
+### Test tools
+
+#### [Testacular](http://vojtajina.github.com/testacular/)
 This is the test runner used to launch the unit and e2e tests. It should also be set up as part of a deployment step in whatever continuous integration scheme wes et up.
 
-### [Jasmine](http://pivotal.github.com/jasmine/)
+#### [Jasmine](http://pivotal.github.com/jasmine/)
 BDD flavored framework used for writing the unit tests.
 
 ## AdminPortal
