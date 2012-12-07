@@ -8,7 +8,7 @@ It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.c
 To install external dependencies you can use Node's package manager, NPM. Simply browse to the root directory of the project in a terminal and run the command **_npm install_**. This will prompt NPM to check the packages.json file for what libraries to fetch and install.
 
 ### Setting up WebStorm
-To set up the solution in WebStorm is quite straightforward. Simply open the root directory.
+To set up the solution in WebStorm is quite straightforward. Simply open the project root directory, and you're set.
 To make a run configuration just press Run -> Edit Configurations, then point the Node App JS file to **_~/scripts/server.js_**, like so:
 
 ![Webstorm Node.js Run Configuration](http://i.imgur.com/3xfUd.png)
