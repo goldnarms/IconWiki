@@ -1,5 +1,12 @@
 A description of libraries and plugins used in the app, and where to get more information.
 
+## Node.js Server + REST API
+
+### Middleware
+#### [connect-assetmanager](https://github.com/mape/connect-assetmanager)
+This middleware is used to bundle, minify, compile LESS and run various other tasks on the Javascript and CSS that is served to the client. The bundles are defined in the ~/config/assets.js file.
+Post manipulate handlers from [connect-assetmanager-handlers](https://github.com/mape/connect-assetmanager-handlers) are used for the actual minification, LESS compilation, etc.
+
 ## Client App
 ### Styling
 #### [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
@@ -14,7 +21,7 @@ A Javascript snippet which displays a popup message for iOS users, informing the
 ### Test tools
 
 #### [Testacular](http://vojtajina.github.com/testacular/)
-This is the test runner used to launch the unit and e2e tests. It should also be set up as part of a deployment step in whatever continuous integration scheme wes et up.
+This is the test runner used to launch the unit and e2e tests. It should also be set up as part of a deployment step in whatever continuous integration scheme we set up.
 
 #### [Jasmine](http://pivotal.github.com/jasmine/)
 BDD flavored framework used for writing the unit tests.
