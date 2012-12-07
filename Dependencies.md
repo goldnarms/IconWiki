@@ -4,7 +4,7 @@ A description of libraries and plugins used in the app, and where to get more in
 
 ### Middleware
 #### [connect-assetmanager](https://github.com/mape/connect-assetmanager)
-This middleware is used to bundle, minify, compile LESS and run various other tasks on the Javascript and CSS that is served to the client. The bundles are defined in the ~/config/assets.js file.
+This middleware is used to bundle, minify, compile LESS and run various other tasks on the Javascript and CSS that is served to the client. The bundles are defined in the _~/config/assets.js file_.
 Post manipulate handlers from [connect-assetmanager-handlers](https://github.com/mape/connect-assetmanager-handlers) are used for the actual minification, LESS compilation, etc.
 
 ## Client App
