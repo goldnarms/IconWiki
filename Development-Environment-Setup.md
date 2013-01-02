@@ -20,3 +20,6 @@ The tests themselves are located under the **_~/test_** folder. However, to run 
 The test scripts can be run using a terminal, but I recommend setting up separate run configurations in WebStorm. To do so, simply click Run -> Edit Configurations, then input the path to Testacular in the "Path to Node App JS File", and "start {path to config file}" as the Application Parameter. Here is an example of what it should look like:
 
 ![WebStorm Test Configuration](http://i.imgur.com/jAuTZ.png)
+
+## Database
+MongoDB should be installed locally. Installation instructions can be found [here](http://docs.mongodb.org/manual/installation/).
