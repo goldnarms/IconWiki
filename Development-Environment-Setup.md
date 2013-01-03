@@ -14,7 +14,7 @@ To make a run configuration just press Run -> Edit Configurations, then point th
 ![Webstorm Node.js Run Configuration](http://i.imgur.com/3xfUd.png)
 
 ### Test framework
-The test specs
+The test specs are located under the **_~/test/unit/web_api_** folder. jasmine-node, spec-helper...
 
 ## Client App
 ### Test framework
