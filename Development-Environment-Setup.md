@@ -10,7 +10,7 @@ The client app and REST API runs in a node.js webserver environment, hence node.
 iCon relies on external node packages, which is listed in the projects `packages.json` file. The Node Package Manager installs these automatically.
 
 1. Navigate to your iCon project root folder. 
-1. Execute `nmp install`.
+1. Execute `npm install`.
 1. Wait for the downloads/installs to complete. 
 1. If errors occur, repeat `npm install`.
 
