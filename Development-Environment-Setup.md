@@ -21,6 +21,7 @@ iCon uses the NoSQL database MongoDB, which must be installed on localhost.
 1. Start MongoDB by executing `mongod`, a log message should appear. 
 1. Test if MongoDB is working by execution the MongoDB shell: `mongo`. A `>` prompt should appear.
 1. Execute `show dbs` to display a list of local databases.
+1. `exit` the shell.
 
 ### Database initialization
 
