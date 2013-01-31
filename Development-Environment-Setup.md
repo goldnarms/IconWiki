@@ -53,9 +53,9 @@ It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.c
 
 ### Setting up WebStorm
 To set up the solution in WebStorm is quite straightforward. Simply open the project root directory, and you're set.
-To make a run configuration just press Run -> Edit Configurations, then point the Node App JS file to **_~/scripts/server.js_**, like so:
+To make a run configuration just press Run -> Edit Configurations, then point the Node App JS file to **_~/scripts/server.js_**. Also make sure you set the MongoDB connection string by adding an environment variable in the run configuration. Your run configuration should look something like this:
 
-![Webstorm Node.js Run Configuration](http://i.imgur.com/3xfUd.png)
+![Webstorm Node.js Run Configuration](http://i.imgur.com/tCG0mqT.png)
 
 ### Test framework
 The test specs are located under the **_~/test/unit/web_api_** folder. jasmine-node, spec-helper...
