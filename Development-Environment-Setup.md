@@ -1,5 +1,3 @@
-Table of contents
-
 ## Node.js
 
 The client app and REST API runs in a node.js webserver environment, hence node.js must be installed on localhost to do development. 
