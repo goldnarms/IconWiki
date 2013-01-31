@@ -44,7 +44,9 @@ The webserver expects an environment variable named `mongodb_uri` containing the
  1. Windows: 
  1. Linux: 
 1. Navigate to the iCon project root folder.
-1. Start the webserver: `node server.js`
+1. Start the webserver: `node server.js`.
+
+The webserver will now be listening on `localhost:3000`.
 
 ## Developing using the WebStorm IDE
 It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.com/webstorm/) for development on the Client App, Node.js server, and REST API. It has great support for Node.js and general Javascript development, and the interface should be familiar to anyone who has used other JetBrains products before.
