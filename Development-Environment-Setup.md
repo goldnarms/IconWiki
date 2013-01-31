@@ -23,9 +23,17 @@ iCon uses the NoSQL database MongoDB, which must be installed on localhost.
 
 ### Database initialization
 
-When first installed, MongoDB is missing the iCon database. 
+When first installed, MongoDB is missing the iCon database. This needs to be initialized.
 
-// TODO: mer om initialisering
+1. Navigate to the iCon project root folder.
+1. Navigate to `test/unit/web_api`.
+1. Make Node.js run the test_seed.js script: `node test_seed`.
+1. Quite Node.js using CTRL+C.
+
+The database should now be ready to use. You may test it by starting MongoDB and look for the iCon database. 
+
+1. Start the MongoDB shell by executing `mongo`.
+1. List databases: `show dbs`. iCon should appear in the list. 
 
 ## IDE's
 It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.com/webstorm/) for development on the Client App, Node.js server, and REST API. It has great support for Node.js and general Javascript development, and the interface should be familiar to anyone who has used other JetBrains products before.
