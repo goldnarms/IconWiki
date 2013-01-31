@@ -12,7 +12,7 @@ iCon relies on external node packages, which is listed in the projects `packages
 1. Wait for the installs to complete. 
 1. If errors occur, repeat `npm install`.
 
-## Database
+## MongoDB
 iCon uses the NoSQL database MongoDB, which must be installed on localhost. 
 
 1. [Download and install MongoDB](http://docs.mongodb.org/manual/installation/).
