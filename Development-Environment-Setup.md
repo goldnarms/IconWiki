@@ -35,7 +35,18 @@ The database should now be ready to use. You may test it by starting MongoDB and
 1. Start the MongoDB shell by executing `mongo`.
 1. List databases: `show dbs`. iCon should appear in the list. 
 
-## IDE's
+## Developing without an IDE
+
+The webserver expects an environment variable named `mongodb_uri` containing the MongoDB connection string to be available befor start. The URI is `mongodb://localhost:27017/iCon`.
+
+1. Set the variable:
+ 1. Mac: `export MONGODB_URI=mongodb://localhost:27017/iCon`
+ 1. Windows: 
+ 1. Linux: 
+1. Navigate to the iCon project root folder.
+1. Start the webserver: `node server.js`
+
+## Developing using the WebStorm IDE
 It is highly recommended to use [JetBrains' WebStorm IDE](http://www.jetbrains.com/webstorm/) for development on the Client App, Node.js server, and REST API. It has great support for Node.js and general Javascript development, and the interface should be familiar to anyone who has used other JetBrains products before.
 
 ### Setting up WebStorm
