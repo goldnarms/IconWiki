@@ -48,7 +48,7 @@ The webserver expects an environment variable named `mongodb_uri` containing the
 
 OR
 
-Run the script run-dev.bat/sh script located under scripts. This should fire up the mongodb database, a monitor watching the LESS files, and the Node.js server. The various processes are fired up and managed by [Foreman](https://github.com/nodefly/node-foreman).
+Run the script `run-dev.bat/sh` script located under scripts. This should fire up the mongodb database, a monitor watching the LESS files, and the Node.js server. The various processes are fired up and managed by [Foreman](https://github.com/nodefly/node-foreman). Processes are defined under `PROCFILE.dev` and environment variables are set in `dev.env`.
 
 The webserver will now be listening on `localhost:3000`.
 
