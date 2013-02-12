@@ -35,7 +35,7 @@ The database should now be ready to use. You may test it by starting MongoDB and
 1. Start the MongoDB shell by executing `mongo`.
 1. List databases: `show dbs`. iCon should appear in the list. 
 
-You can also use this script to populate the production DB while the Administrator interface is not available. Just supply a MongoDB url of the database you wish to populate as the first parameter to the `test_seed.js` script
+You can also use this script to populate the production DB while the Administrator interface is not available. Just supply a MongoDB url of the database you wish to populate as the first parameter to the `test_seed.js` script, like so: `node test_seed mongodb://user:pasword@url:port/dbname`
 
 ## Developing without an IDE
 
