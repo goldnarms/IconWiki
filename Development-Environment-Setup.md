@@ -46,6 +46,10 @@ The webserver expects an environment variable named `mongodb_uri` containing the
 1. Navigate to the iCon project root folder.
 1. Start the webserver: `node server.js`.
 
+OR
+
+Run the script run-dev.bat/sh script located under scripts. This should fire up the mongodb database, a monitor watching the LESS files, and the Node.js server. The various processes are fired up and managed by [Foreman](https://github.com/nodefly/node-foreman).
+
 The webserver will now be listening on `localhost:3000`.
 
 ## Developing using the WebStorm IDE
