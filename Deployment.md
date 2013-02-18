@@ -1,1 +1,2 @@
-Deployment routines will be specified here.
+Database:
+The database is deployed on MongoHQ.
