@@ -9,4 +9,4 @@ We have to instances to the app, one for production and one for test. Read [this
 
 git push iconprod master (to push to prod)
 
-git push iconat master (to push to prod)
+git push iconat master (to push to dev)
