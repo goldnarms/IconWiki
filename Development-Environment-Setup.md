@@ -13,15 +13,16 @@ iCon relies on external node packages, which is listed in the projects `packages
 1. If errors occur, repeat `npm install`.
 
 ## MongoDB
-iCon uses the NoSQL database MongoDB, which must be installed on localhost. 
+iCon uses the NoSQL database MongoDB. MongoDB can be installed on localhost, or you may use the MongoHQ test database to develop on. 
 
+### Either: Install MongoDB on localhost 
 1. [Download and install MongoDB](http://docs.mongodb.org/manual/installation/).
 1. Start MongoDB by executing `mongod`, a log message should appear. 
 1. Test if MongoDB is working by execution the MongoDB shell: `mongo`. A `>` prompt should appear.
 1. Execute `show dbs` to display a list of local databases.
 1. `exit` the shell.
 
-### Database initialization
+#### Database initialization
 
 When first installed, MongoDB is missing the iCon database. This needs to be initialized.
 
@@ -37,20 +38,40 @@ The database should now be ready to use. You may test it by starting MongoDB and
 
 You can also use this script to populate the production DB while the Administrator interface is not available. Just supply a MongoDB url of the database you wish to populate as the first parameter to the `test_seed.js` script, like so: `node test_seed mongodb://user:pasword@url:port/dbname`
 
+### Or: Use MongoHQ
+
+You may need to head over to [monghq.com](http://mongohq.com) to find the database connection string (the URL to which to connect to access the database). 
+
+The connection string will be in the form: `mongodb://<user>:<password>@linus.mongohq.com:10062/<database name>`.
+
+Username and password is found in the passwords folder, the rest is found at MongoHQ. 
+
 ## Developing without an IDE
 
-The webserver expects an environment variable named `mongodb_uri` containing the MongoDB connection string to be available befor start. The URI is `mongodb://localhost:27017/iCon`.
+### MongoDB connection string 
+The webserver expects an environment variable named `mongodb_uri` containing the MongoDB connection string to be available before start. 
 
-1. Set the variable:
- 1. Mac: `export MONGODB_URI=mongodb://localhost:27017/iCon`
- 1. Windows: 
- 1. Linux: 
+- Local installation of MongoDB: `mongodb://localhost:27017/iCon`
+- MongoHQ: `mongodb://<user>:<password>@linus.mongohq.com:10062/<database name>`
+
+### Either: Fire up the system manually 
+
+1. Set the MongoDB environment variable:
+ 1. Mac: `export MONGODB_URI=<connection string>`
+ 1. Windows: `fill inn the blank`
+ 1. Linux: `fill in the blank`
+1. Start MongoDB as described above (in it's own terminal window).
 1. Navigate to the iCon project root folder.
 1. Start the webserver: `node server.js`.
 
-OR
+### Or: Fire up the system using the startup script
 
-Run the script `run-dev.bat/sh` script located under scripts. This should fire up the mongodb database, a monitor watching the LESS files, and the Node.js server. The various processes are fired up and managed by [Foreman](https://github.com/nodefly/node-foreman). Processes are defined under `PROCFILE.dev` and environment variables are set in `dev.env`.
+Run the startup script:
+
+- Windows: `run-dev.bat`
+- Mac: `run-dev.sh`
+
+The script is located under `scripts`. This should fire up the mongodb database, a monitor watching the LESS files, and the Node.js server. The various processes are fired up and managed by [Foreman](https://github.com/nodefly/node-foreman). Processes are defined under `PROCFILE.dev` and environment variables are set in `dev.env`.
 
 The webserver will now be listening on `localhost:3000`.
 
