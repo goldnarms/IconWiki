@@ -40,19 +40,19 @@ You can also use this script to populate the production DB while the Administrat
 
 ### Or: Use MongoHQ
 
-You may need to head over to [monghq.com](http://mongohq.com) to find the database connection string (the URL to which to connect to access the database). 
+[monghq.com](http://mongohq.com) is a site that hosts Mongo databases, which means no local installation is required. We still need the database connection string (the URL to which to connect to access the database). 
 
-The connection string will be in the form: `mongodb://<user>:<password>@linus.mongohq.com:10062/<database name>`.
+The connection string will be in the form: `mongodb://icon:<password>@linus.mongohq.com:10062/iCon_development`.
 
-Username and password is found in the passwords folder, the rest is found at MongoHQ. 
+(DB password is found in the passwords folder).
 
 ## Developing without an IDE
 
-### MongoDB connection string 
+### Setup MongoDB connection string 
 The webserver expects an environment variable named `mongodb_uri` containing the MongoDB connection string to be available before start. 
 
 - Local installation of MongoDB: `mongodb://localhost:27017/iCon`
-- MongoHQ: `mongodb://<user>:<password>@linus.mongohq.com:10062/<database name>`
+- MongoHQ: `mongodb://icon:<password>@linus.mongohq.com:10062/iCon_development`
 
 ### Either: Fire up the system manually 
 
@@ -64,14 +64,14 @@ The webserver expects an environment variable named `mongodb_uri` containing the
 1. Navigate to the iCon project root folder.
 1. Start the webserver: `node server.js`.
 
-### Or: Fire up the system using the startup script
+### Or: Fire up the system using the startup script (local DB only)
 
 Run the startup script:
 
 - Windows: `run-dev.bat`
 - Mac: `run-dev.sh`
 
-The script is located under `scripts`. This should fire up the mongodb database, a monitor watching the LESS files, and the Node.js server. The various processes are fired up and managed by [Foreman](https://github.com/nodefly/node-foreman). Processes are defined under `PROCFILE.dev` and environment variables are set in `dev.env`.
+The script is located under `scripts`. This should fire up a local mongodb database, a monitor watching the LESS files, and the Node.js server. The various processes are fired up and managed by [Foreman](https://github.com/nodefly/node-foreman). Processes are defined under `PROCFILE.dev` and environment variables are set in `dev.env`.
 
 The webserver will now be listening on `localhost:3000`.
 
