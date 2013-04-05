@@ -48,23 +48,36 @@ The connection string will be in the form: `mongodb://icon:<password>@linus.mong
 
 ## Developing without an IDE
 
-### Setup MongoDB connection string 
-The webserver expects an environment variable named `mongodb_uri` containing the MongoDB connection string to be available before start. 
+### Environment variables
 
-- Local installation of MongoDB: `mongodb://localhost:27017/iCon`
-- MongoHQ: `mongodb://icon:<password>@linus.mongohq.com:10062/iCon_development`
+The webserver expects av few environment variables to be available before start.
 
-### Either: Fire up the system manually 
+- MongoDB connection string `mongodb_uri`: 
+  - Local installation of MongoDB: `mongodb://localhost:27017/iCon`
+  - MongoHQ: `mongodb://icon:<password>@linus.mongohq.com:10062/iCon_development`
+- Server path for images `image_url_path`:
+  - Heroku development: `http://iconadminat.azurewebsites.net`
+  - Heroku production: `http://iconadmin.azurewebsites.net`
 
-1. Set the MongoDB environment variable:
- 1. Mac: `export MONGODB_URI=<connection string>`
- 1. Windows: `fill inn the blank`
- 1. Linux: `fill in the blank`
+If the app is running locally the values can be set in the terminal (valid for one session) or in the system preferences (global). If it's running in a cloud service like Heroku, they must be set in the config there. 
+
+(The `scripts/dev.env` file defines defaults used by the dev startup script). 
+
+#### Setting local variables in the terminal 
+
+- Mac: `export <name>=<value>`
+- Windows: `fill inn the blank`
+- Linux: `fill in the blank`
+
+### Start you engines!
+
+#### Either: Fire up the system manually 
+
 1. Start MongoDB as described above (in it's own terminal window).
 1. Navigate to the iCon project root folder.
 1. Start the webserver: `node server.js`.
 
-### Or: Fire up the system using the startup script (local DB only)
+#### Or: Fire up the system using the startup script (local DB only)
 
 Run the startup script:
 
