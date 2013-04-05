@@ -9,7 +9,8 @@ The app lives on [Heroku](https://id.heroku.com/login) in two instances, one for
 
 - Username: azure@itema.no
 
-Applications
+### Applications
+
 - Development: `ancient-bastion-7652`
 - Production: `peaceful-journey-3435`
 
