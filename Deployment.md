@@ -16,9 +16,7 @@ The app lives on [Heroku](https://id.heroku.com/login) in two instances, one for
 
 ### Setting up remotes for Heroku
 
-To push from you local Git repository to Heroku, you first need to add a remote destination for each application.
-
-First you must [download and install the Heroku toolbelt, and log on to Heroku] (https://devcenter.heroku.com/articles/quickstart). Then you can add the remote:
+To push from you local Git repository to Heroku, you need to add a remote destination for each application. First you must [download and install the Heroku toolbelt, and log on to Heroku] (https://devcenter.heroku.com/articles/quickstart). Then you can add the remote:
 
 - Open a terminal shell
 - Navigate to your Icon project root folder
