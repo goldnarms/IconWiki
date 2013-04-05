@@ -16,9 +16,12 @@ The app lives on [Heroku](https://id.heroku.com/login) in two instances, one for
 
 ### Pushing from GitHub to Heroku
 
-`git push iconprod master (to push to prod)`
-`git push iconat master (to push to dev)`
+Deployment to Heroku is done through the GitHub repositories. 
+
+- Development: `git push iconat master`
+- Production: `git push iconprod master`
 
 ### Resources
+
 - [Multiple apps on Heroku from same GIT repository](http://tanyanam.com/technology/multiple-apps-on-heroku-from-the-same-git-repository)
 
