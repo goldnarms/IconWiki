@@ -37,7 +37,7 @@ Heroku toolbelt will then upload an existing key (or create a new one for you).
 
 ### Setting up environment variables
 
-A few environment variables (e.g. MongooseDB connection string), must be set on the Heroku apps before they can run as expected. Envirotment variables are set by:
+A few environment variables (e.g. MongooseDB connection string), must be set on the Heroku apps before they can run as expected. Environment variables are set by:
 
 - Navigate to you iCon project root folder
 - Execute `heroku config:add <variable name>=<variable value> --app <heroku app name>`
