@@ -1,15 +1,23 @@
 ## Database
 
-The database is deployed on MongoHQ.(http://www.mongohq.com/home)
+The database is deployed on [MongoHQ] (http://www.mongohq.com/home).
+- Username: azure@itema.no
 
-Push to Heroku: 
+## App 
 
-We have to instances to the app, one for production and one for test. Read [this article](http://tanyanam.com/technology/multiple-apps-on-heroku-from-the-same-git-repository) to see how you work with multiple apps from one git repository.
+The app lives on [Heroku](https://id.heroku.com/login) in two instances, one for development/testing and one for production.
 
-Apps:
-* peaceful-journey-3435(Prod)
-* ancient-bastion-7652 (Dev)
+- Username: azure@itema.no
 
-git push iconprod master (to push to prod)
+Applications
+- Development: `ancient-bastion-7652`
+- Production: `peaceful-journey-3435`
 
-git push iconat master (to push to dev)
+### Pushing from GitHub to Heroku
+
+`git push iconprod master (to push to prod)`
+`git push iconat master (to push to dev)`
+
+### Resources
+- [Multiple apps on Heroku from same GIT repository](http://tanyanam.com/technology/multiple-apps-on-heroku-from-the-same-git-repository)
+
