@@ -46,10 +46,9 @@ You may list existing variables using `heroku config --app <heroku app name>`.
 
 ### Pushing from GitHub to Heroku
 
-Navigate to you iCon project root folder and deploy using the `git push` command:
-
-- Development: `git push icon-dev master`
-- Production: `git push icon-prod master`
+- Navigate to your iCon project root folder
+- Execute `git push <heroku app name> master`
+- Wait for the push to complete
 
 ### Resources
 
