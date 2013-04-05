@@ -35,6 +35,15 @@ Heroku uses SSH keys to authenticate you, and the public key must be uploaded be
 
 Heroku toolbelt will then upload an existing key (or create a new one for you). 
 
+### Setting up environment variables
+
+A few environment variables (e.g. MongooseDB connection string), must be set on the Heroku apps before they can run as expected. Envirotment variables are set by:
+
+- Navigate to you iCon project root folder
+- Execute `heroku config:add <variable name>=<variable value> --app <heroku app name>`
+
+You may list existing variables using `heroku config --app <heroku app name>`.
+
 ### Pushing from GitHub to Heroku
 
 Navigate to you iCon project root folder and deploy using the `git push` command:
