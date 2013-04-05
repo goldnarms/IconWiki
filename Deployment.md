@@ -26,6 +26,15 @@ The Heroku Git URL is found on the application settings page. The `<remote name>
 
 You can chech which remotes you have available at any given time by executing `git remote -v`.
 
+### Adding your SSH key to Heroku
+
+Heroku uses SSH keys to authenticate you, and the public key must be uploaded before you can deploy the app. 
+
+- Navigate to your iCon project root folder
+- Execute `heroku keys:add`
+
+Heroku toolbelt will then upload an existing key (or create a new one for you). 
+
 ### Pushing from GitHub to Heroku
 
 Navigate to you iCon project root folder and deploy using the `git push` command:
