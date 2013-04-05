@@ -28,9 +28,10 @@ You can chech which remotes you have available at any given time by executing `g
 
 ### Pushing from GitHub to Heroku
 
-- Navigate to you iCon project root folder and deploy using the `git push` command:
-  - Development: `git push icon-dev master`
-  - Production: `git push icon-prod master`
+Navigate to you iCon project root folder and deploy using the `git push` command:
+
+- Development: `git push icon-dev master`
+- Production: `git push icon-prod master`
 
 ### Resources
 
