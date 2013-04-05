@@ -3,7 +3,7 @@
 The database is deployed on [MongoHQ] (http://www.mongohq.com/home).
 - Username: azure@itema.no
 
-## App 
+## Client app 
 
 The app lives on [Heroku](https://id.heroku.com/login) in two instances, one for development/testing and one for production.
 
