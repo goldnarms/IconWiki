@@ -31,6 +31,9 @@ Deployment to Heroku is done through the GitHub repositories.
 - Development: `git push iconat master`
 - Production: `git push iconprod master`
 
+### Authenticating with Heroku
+
+
 ### Resources
 
 - [Multiple apps on Heroku from same GIT repository](http://tanyanam.com/technology/multiple-apps-on-heroku-from-the-same-git-repository)
