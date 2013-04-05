@@ -47,7 +47,7 @@ You may list existing variables using `heroku config --app <heroku app name>`.
 ### Pushing from GitHub to Heroku
 
 - Navigate to your iCon project root folder
-- Execute `git push <heroku app name> master`
+- Execute `git push <git remote name> master`
 - Wait for the push to complete
 
 ### Resources
