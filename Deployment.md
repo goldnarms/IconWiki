@@ -22,7 +22,7 @@ To push from you local Git repository to Heroku, you need to add a remote destin
 - Navigate to your Icon project root folder
 - Execute `git remote add <remote name> <Heroku Git URL>`
  
-The Heroku Git URL is found on the application settings page. The `<remote name>` values may be whatever you like, but the rest of the documentation will assume you called them `icon-prod` and `icon-dev`.
+The Heroku Git URL is found on the application settings page. The `<remote name>` values may be whatever you like, but a good practice would be to match the heroku application names.
 
 You can chech which remotes you have available at any given time by executing `git remote -v`.
 
