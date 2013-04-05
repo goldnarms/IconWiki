@@ -14,6 +14,16 @@ The app lives on [Heroku](https://id.heroku.com/login) in two instances, one for
 - Development: `ancient-bastion-7652`
 - Production: `peaceful-journey-3435`
 
+### Setting up remotes for Heroku
+
+To push from you local Git repository to Heroku, you first need to add a remote destination for each application.
+
+- Open a terminal shell
+- Navigate to your Icon project root folder
+- Execute `git remote add icon-dev <Heroku Git URL>``
+ 
+The Heroku Git URL is found on the application settings page. Now your repository is ready to push updates to Heroku.
+
 ### Pushing from GitHub to Heroku
 
 Deployment to Heroku is done through the GitHub repositories. 
@@ -24,4 +34,3 @@ Deployment to Heroku is done through the GitHub repositories.
 ### Resources
 
 - [Multiple apps on Heroku from same GIT repository](http://tanyanam.com/technology/multiple-apps-on-heroku-from-the-same-git-repository)
-
