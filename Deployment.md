@@ -11,8 +11,8 @@ The app lives on [Heroku](https://id.heroku.com/login) in two instances, one for
 
 ### Applications
 
-- Development: `ancient-bastion-7652`
-- Production: `peaceful-journey-3435`
+- Development: `itema-icon-dev`
+- Production: `itema-icon`
 
 ### Setting up remotes for Heroku
 
