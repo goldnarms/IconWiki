@@ -77,6 +77,11 @@ If the app is running locally the values can be set in the terminal (valid for o
 1. Navigate to the iCon project root folder.
 1. Start the webserver: `node server.js`.
 
+#### Or: Fire up using NPM
+1. Execute `npm start`
+
+Nodemon should start Node, monitoring .js, .less and .json files for changes. 
+
 #### Or: Fire up the system using the startup script (local DB only)
 
 Run the startup script:
