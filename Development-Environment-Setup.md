@@ -75,18 +75,10 @@ If the app is running locally the values can be set in the terminal (valid for o
 
 1. Start MongoDB as described above (in it's own terminal window).
 1. Navigate to the iCon project root folder.
-1. Start the webserver: `npm start`.
+1. Perform a global install of Grunt: `npm install -g grunt`.
+1. Start up the web server using `grunt dev`
 
-Node package manager should then start Nodemon, which in turn starts Node.js, while monitoring .js, .less and .json files for changes. 
-
-#### Or: Fire up the system using the startup script (local DB only)
-
-Run the startup script:
-
-- Windows: `run-dev.bat`
-- Mac: `run-dev.sh`
-
-The script is located under `scripts`. This should fire up a local mongodb database, a monitor watching the LESS files, and the Node.js server. The various processes are fired up and managed by [Foreman](https://github.com/nodefly/node-foreman). Processes are defined under `PROCFILE.dev` and environment variables are set in `dev.env`.
+Grunt will then start Nodemon, which in turn starts Node.js, while monitoring server-side *.js and *.less files. In addition a task monitoring changes in client side *.js files is run, and will generate a new cache manifest when detecting changes.
 
 The webserver will now be listening on `localhost:3000`.
 
