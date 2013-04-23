@@ -71,8 +71,6 @@ If the app is running locally the values can be set in the terminal (valid for o
 
 ### Start you engines!
 
-#### Either: Fire up the system manually 
-
 1. Start MongoDB as described above (in it's own terminal window).
 1. Navigate to the iCon project root folder.
 1. Perform a global install of Grunt: `npm install -g grunt`.
