@@ -58,8 +58,6 @@ The webserver expects av few environment variables to be available before start.
 - Server path for images `image_url_path`:
   - Heroku development: `http://iconadminat.azurewebsites.net`
   - Heroku production: `http://iconadmin.azurewebsites.net`
-- Cloudmade API key for map tiles `cloudmade_api_key`:
-  - 1c5481f830c84aea9bc75b44e8f92215 (account: rune.andersen@itema.no)
 
 If the app is running locally the values can be set in the terminal (valid for one session) or in the system preferences (global). If it's running in a cloud service like Heroku, they must be set in the config there. 
 
