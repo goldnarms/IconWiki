@@ -1,5 +1,5 @@
 * [[Deployment|Deployment]]
-* [[Development Environment Setup|Development-Environment-Setup]]
+* [[Development|Development]]
 * [[Dependencies|Dependencies]]
 * [[Terminology|Terminology]]
 * [[Definition of Done|Definition-of-Done]]
