@@ -1,5 +1,3 @@
-* [[Deployment|Deployment]]
 * [[Development|Development]]
-* [[Dependencies|Dependencies]]
 * [[Terminology|Terminology]]
 * [[Definition of Done|Definition-of-Done]]
